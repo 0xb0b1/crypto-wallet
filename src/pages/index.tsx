@@ -1,6 +1,7 @@
 import {
   Box,
   VStack,
+  HStack,
   Flex,
   Heading,
   Text,
@@ -35,7 +36,8 @@ export const SignIn = () => {
         h="100vh"
         align={isMediumVersion ? "center" : ""}
         justify={isWideVersion ? "flex-start" : "center"}
-        bg="blue.200"
+        // bg="blue.200"
+        bgGradient="linear(to-t, blue.200, yellow.500)"
       >
         {isWideVersion && (
           <Image
@@ -43,7 +45,8 @@ export const SignIn = () => {
             alt="logo"
             position="absolute"
             right="0"
-            width="40rem"
+            w="40vw"
+            // w={["20rem", "30rem", "40rem"]}
           />
         )}
 
@@ -59,10 +62,13 @@ export const SignIn = () => {
           ml={isMediumVersion ? "8" : ""}
           position="relative"
         >
-          <Flex direction="column" justify="center" align="center" mt="12">
-            <Heading fontSize={["1.1rem", "1.5rem", "1.8rem"]}>
-              Cryptocurrency Wallet
-            </Heading>
+          <Flex direction="column" justify="center" align="center" mt="8" p="8">
+            <HStack spacing="2">
+              <Image src="bitcoin.svg" alt="bitcoin" w="4rem" />
+              <Heading fontSize={["1rem", "1.4rem"]} align="center">
+                Crypto Wallet
+              </Heading>
+            </HStack>
             <Text
               textAlign="center"
               fontSize={["0.8rem", "1rem", "1.2rem"]}
