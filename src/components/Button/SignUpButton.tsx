@@ -9,14 +9,14 @@ interface SignUpButtonProps {
 export const ThirdPartSignUp = ({ icon, name }: SignUpButtonProps) => {
   return (
     <Box as="a" mx="auto" color="gray.900">
-      <Flex flexDir="row" align="center" bg="gray.50" borderRadius={8} pr="4">
+      <Flex flexDir="row" align="center" bg="gray.50" borderRadius={8} pr="2">
         <IconButton
           aria-label={name}
           variant="filled"
           size="sm"
           icon={<Icon as={icon} />}
         />
-        <Text>Sign In with {name}</Text>
+        <Text fontSize="0.85rem">Sign In with {name}</Text>
       </Flex>
     </Box>
   );
