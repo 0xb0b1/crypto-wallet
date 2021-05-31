@@ -24,7 +24,7 @@
 
 <br />
 <div align="center">
-  <img src="https://github.com/0xb0b1/crypto-wallet/blob/main/screenshot.jpg" width="720">
+  <img src="https://github.com/0xb0b1/crypto-wallet/blob/master/screenshot.jpg" width="720">
 
 </div>
 
