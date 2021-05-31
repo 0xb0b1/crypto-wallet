@@ -69,7 +69,11 @@ export const SignIn = () => {
           <Flex direction="column" justify="center" align="center" mt="8" p="8">
             <HStack spacing="2">
               <Image src="/bitcoin.svg" alt="bitcoin" w="4rem" />
-              <Heading fontSize={["1rem", "1.4rem"]} align="center">
+              <Heading
+                fontSize={["1rem", "1.4rem"]}
+                fontWeight="900"
+                align="center"
+              >
                 Crypto Wallet
               </Heading>
             </HStack>

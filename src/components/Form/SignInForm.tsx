@@ -68,7 +68,7 @@ export const SignInForm = () => {
           </Flex>
         ) : (
           <Button variant="unstiled" color="blue.500">
-            Sign Up
+            <Text fontWeight="900">Sign Up</Text>
           </Button>
         )}
         <Box>
@@ -76,6 +76,7 @@ export const SignInForm = () => {
             type="submit"
             colorScheme="blue"
             isLoading={formState.isSubmitting}
+            fontWeight="900"
           >
             Sign In
           </Button>
