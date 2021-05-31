@@ -15,7 +15,7 @@
     <img alt="License: MIT" src="https://img.shields.io/badge/License-MIT-c9c9c9.svg" target="_blank" />
   </a>
   <img alt="GitHub Pull Requests" src="https://img.shields.io/github/issues-pr/0xb0b1/crypto-wallet?color=c9c9c9" />
-  <img alt="GitHub Contributors" src="https://img.shields.io/github/contributors/0xb0b1/cryptowallet?color=c9c9c9" />
+  <img alt="GitHub Contributors" src="https://img.shields.io/github/contributors/0xb0b1/crypto-wallet?color=c9c9c9" />
   <img alt="" src="https://img.shields.io/github/repo-size/0xb0b1/crypto-wallet?color=c9c9c9" />
 </p>
 
